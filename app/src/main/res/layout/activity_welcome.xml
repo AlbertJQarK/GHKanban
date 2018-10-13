@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
     android:background="@color/colorPrimary"
-    tools:context=".WelcomeActivity">
+    tools:context=".ui.login.WelcomeActivity">
 
     <TextView
         android:layout_width="wrap_content"
@@ -48,13 +48,13 @@
         </android.support.design.widget.TextInputLayout>
 
         <Button
-            android:id="@+id/bt_sign_in"
+            android:id="@+id/bt_search"
             style="@style/GreenButton"
             android:layout_width="match_parent"
             android:layout_height="64dp"
             android:layout_gravity="center_horizontal"
             android:layout_margin="@dimen/default_margin"
-            android:text="@string/sign_in"/>
+            android:text="@string/search"/>
 
 
     </LinearLayout>

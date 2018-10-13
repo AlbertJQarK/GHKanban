@@ -15,6 +15,12 @@
 
     <style name="WhiteEditText" parent="TextAppearance.AppCompat">
         <item name="colorAccent">@color/colorText</item>
+        <item name="android:textSize">40sp</item>
     </style>
+
+    <style name="ToolBarWithNavigationBack">
+        <item name="navigationIcon">@drawable/abc_ic_ab_back_material</item>
+    </style>
+
 
 </resources>
