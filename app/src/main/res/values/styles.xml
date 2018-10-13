@@ -8,4 +8,13 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="GreenButton" parent="Widget.AppCompat.Button">
+        <item name="android:backgroundTint">@color/colorAccent</item>
+        <item name="android:textColor">@color/colorText</item>
+    </style>
+
+    <style name="WhiteEditText" parent="TextAppearance.AppCompat">
+        <item name="colorAccent">@color/colorText</item>
+    </style>
+
 </resources>
