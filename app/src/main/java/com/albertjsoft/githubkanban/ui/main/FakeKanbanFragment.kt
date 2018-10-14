@@ -14,7 +14,7 @@ import com.albertjsoft.githubkanban.R
  * Created by albertj on 13/10/2018.
  */
 
-class FakeKanbanFragment : FakeBaseFragment(){
+class FakeKanbanFragment : BaseFragment(){
 
     private var mRootView: RecyclerView? = null
 
@@ -39,7 +39,7 @@ class FakeKanbanFragment : FakeBaseFragment(){
             val itemView = LayoutInflater.from(viewGroup.context)
                     .inflate(R.layout.list_item, viewGroup, false)
             itemView.findViewById<Button>(R.id.action_button).setText(R.string.kanban)
-            itemView.findViewById<TextView>(R.id.frangment_title).setText(R.string.board)
+            itemView.findViewById<TextView>(R.id.item_title).setText(R.string.board)
             return FakeKanbanVH(itemView)
         }
 

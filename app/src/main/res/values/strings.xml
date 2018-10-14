@@ -12,4 +12,6 @@
     <string name="wrong_user_message">We have not found the user you are looking for, please try again</string>
     <string name="network_error_title">Ups! something Happend</string>
     <string name="network_error_message">There is a network problem, please try again later</string>
+    <string name="tab1">Explore</string>
+    <string name="tab2">Local</string>
 </resources>

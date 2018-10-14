@@ -13,9 +13,9 @@ import retrofit2.Call
 interface APIService {
 
     @GET("/users/{username}")
-    fun searchUserData(@Path("username") username: String): Call<User>
+    fun getUserData(@Path("username") username: String): Call<User>
 
     @GET("/users/{username}/repos")
-    fun searchUserRepos(@Path("username") username: String): Call<List<Repository>>
+    fun getUserRepos(@Path("username") username: String): Call<List<Repository>>
 
 }

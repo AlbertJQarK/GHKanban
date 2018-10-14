@@ -20,7 +20,7 @@
         android:layout_margin="@dimen/default_margin"
         android:layout_marginBottom="30dp">
         <TextView
-            android:id="@+id/frangment_title"
+            android:id="@+id/item_title"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:fontFamily="sans-serif-light"
@@ -30,6 +30,7 @@
             android:ellipsize="end"
             />
         <TextView
+            android:id="@+id/item_message"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:fontFamily="sans-serif-light"
