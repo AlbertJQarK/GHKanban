@@ -14,12 +14,7 @@ import com.albertjsoft.githubkanban.R
  * Created by albertj on 13/10/2018.
  */
 
-class FakeKanbanFragment : FakeBaseFragment(), View.OnClickListener {
-    override fun onClick(view: View) {
-        if (view.id == R.id.action_button) {
-            // TODO: Go to screen #3 kanban
-        }
-    }
+class FakeKanbanFragment : FakeBaseFragment(){
 
     private var mRootView: RecyclerView? = null
 

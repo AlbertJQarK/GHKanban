@@ -7,4 +7,9 @@
     <string name="repository">Repository</string>
     <string name="add">Add</string>
     <string name="kanban">kanban</string>
+    <string name="ok">Ok</string>
+    <string name="wrong_user_title">We sorry!</string>
+    <string name="wrong_user_message">We have not found the user you are looking for, please try again</string>
+    <string name="network_error_title">Ups! something Happend</string>
+    <string name="network_error_message">There is a network problem, please try again later</string>
 </resources>

@@ -20,6 +20,7 @@ class MainActivity : AppCompatActivity(), AppBarLayout.OnOffsetChangedListener {
     private var mIsAvatarShown = true
     private var mProfilePhoto: ImageView? = null
     private var mMaxScrollSize: Int = 0
+    private var mPresenterMain: PresenterMain? = null
 
     public override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -38,6 +39,14 @@ class MainActivity : AppCompatActivity(), AppBarLayout.OnOffsetChangedListener {
 
         viewPager.adapter = TabsAdapter(supportFragmentManager)
         tabLayout.setupWithViewPager(viewPager)
+
+        initializePresenter()
+        mPresenterMain?.getUserData(intent.getStringExtra("username"))
+    }
+
+    private fun initializePresenter() {
+        mPresenterMain = PresenterMain(this)
+
     }
 
     override fun onOffsetChanged(appBarLayout: AppBarLayout, i: Int) {
@@ -95,4 +104,5 @@ class MainActivity : AppCompatActivity(), AppBarLayout.OnOffsetChangedListener {
         private val PERCENTAGE_TO_ANIMATE_AVATAR = 20
 
     }
+
 }

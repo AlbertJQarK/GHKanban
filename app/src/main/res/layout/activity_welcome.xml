@@ -31,11 +31,11 @@
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/default_margin"
             android:hint="@string/username"
-            android:labelFor="@id/et_user_name"
+            android:labelFor="@id/et_username"
             android:theme="@style/WhiteEditText">
 
             <android.support.v7.widget.AppCompatEditText
-                android:id="@+id/et_user_name"
+                android:id="@+id/et_username"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textNoSuggestions"

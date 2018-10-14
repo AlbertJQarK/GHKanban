@@ -16,12 +16,7 @@ import com.albertjsoft.githubkanban.R
  */
 
 
-class FakeRepoFragment : Fragment(), View.OnClickListener {
-    override fun onClick(view: View) {
-        if (view.id == R.id.action_button) {
-            // TODO: ADD REPOSITORY TO LOCAL LIST
-        }
-    }
+class FakeRepoFragment : FakeBaseFragment(){
 
     private var mRootView: RecyclerView? = null
 
