@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">GitHub Kanban</string>
+    <string name="author">Author</string>
+    <string name="board">Board</string>
+    <string name="search">Search</string>
+    <string name="username">Username</string>
+    <string name="repository">Repository</string>
+    <string name="add">Add</string>
+    <string name="kanban">kanban</string>
 </resources>
